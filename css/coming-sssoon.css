@@ -953,3 +953,29 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   .whatsapp-icon {
     margin-top:13px;
   }
+
+  .country-body {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.country-button {
+    border-radius: 25px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    padding: 0.625vh 1.95vw 0.625vh 0.39vw;
+    margin: 0.78vw;
+}
+
+.country-button img {
+    margin: 0 0.39vw 0 0;
+}
+.country-button p {
+    margin: 0;
+    font-weight: 800;
+    color: #FFC107;
+}
